@@ -1,0 +1,25 @@
+# direnv
+.direnv
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies y build
+node_modules
+dist
+dist-ssr
+
+# Variables locales (nunca se suben)
+.env
+.env.local
+*.local
+
+# Editor y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.sw?
